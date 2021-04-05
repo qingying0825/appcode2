@@ -2,7 +2,7 @@
 	<view>
 		<input class="input" type="number" v-model="mobile" placeholder="请输入手机号码" placeholder-class="placeholder" />
 		<input class="input" type="number" v-model="code" placeholder="请输入验证码" placeholder-class="placeholder" />
-		<button @click="getData">发送验证码</button>
+		<button @click="getData">发送验证码1</button>
 		<button @click="getData1">确认</button>
 	</view>
 </template>
