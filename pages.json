@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "我的小迪",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/tabbar/mall/mall"
+		},
+		{
+			"path":"pages/tabbar/garage/garage"
+		},
+		{
+			"path":"pages/tabbar/my/my"
+		},
+		{
+			"path":"pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+            "path" : "pages/editreg/editreg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改用户信息"
+            }
+            
+        }
+        ,{
+            "path" : "pages/vehicle/vehicle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "扫描二维码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/experience/experience",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "虚拟体验",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vehicleMessage/vehicleMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "我的小迪",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#666",
+		"selectedColor":"#52bcff",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/tabbar/index/index",
+				"text":"首页",
+				"iconPath":"static/menu_nor_sy.png"	,
+				"selectedIconPath":"static/menu_sel_sy.png"
+		},
+		{
+				"pagePath":"pages/tabbar/mall/mall",
+				"text":"我的小迪",
+				"iconPath":"static/menu_nor_qd.png"	,
+				"selectedIconPath":"static/menu_sel_qd.png"
+		},
+		{
+				"pagePath":"pages/tabbar/garage/garage",
+				"text":"车库",
+				"iconPath":"static/menu_nor_yj.png"	,
+				"selectedIconPath":"static/menu_sel_yj.png"
+		},
+		{
+				"pagePath":"pages/tabbar/my/my",
+				"text":"我的",
+				"iconPath":"./static/menu_nor_wd.png"	,
+				"selectedIconPath":"static/menu_sel_wd.png"
+		}
+		]
+	}
+}
